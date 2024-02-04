@@ -1,12 +1,11 @@
 # 1. Overview
-This project implements [Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) using pytorch framework according to [this](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html) guide and wraps it into telegram bot.
+This project implements [Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) using pytorch framework according to [this](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html) guide and wraps it into telegram bot. The algorithm takes two images and generates a new image with content like the first image and style like the second.
 
 There are several examples of how the algorithm works.
 
 | Content Image | Style Image | Result |
 | :--: | :--: | ---- |
 | ![](./assetes/cat.png) | ![](/assetes/tree.png) | ![](/assetes/transfered-cat.png) |
-| :--: | :--: | ---- |
 | ![](./assetes/dancing.png) | ![](/assetes/art.png) | ![](/assetes/mod-dancing.png) |
 
 
